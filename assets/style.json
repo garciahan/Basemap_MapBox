@@ -1,6 +1,6 @@
 {
     "version": 8,
-    "name": "Ice Cream",
+    "name": "Valentines Portland Base Map - Ice Cream",
     "metadata": {
         "mapbox:trackposition": false,
         "mapbox:groups": {
@@ -10,7 +10,7 @@
             },
             "0cb8c63458cbe21bbe1ad66543f73a04": {
                 "name": "Roads",
-                "collapsed": false
+                "collapsed": true
             },
             "d84bd578f1389e89645c76070bd1c761": {
                 "name": "Marine labels",
@@ -22,7 +22,7 @@
             },
             "1cfc175b0e7532a47eec44b8ede849d8": {
                 "name": "Landcover",
-                "collapsed": false
+                "collapsed": true
             },
             "4a585425cb0cc2af93b4cdedda86461d": {
                 "name": "Borders",
@@ -30,7 +30,7 @@
             },
             "659790aba31107609c41007408bfdeeb": {
                 "name": "Road labels",
-                "collapsed": false
+                "collapsed": true
             },
             "87eb9fc4e65e33c3909d5992c53c8c22": {
                 "name": "POI labels",
@@ -42,7 +42,7 @@
             },
             "0e4fe52bb6e07167e428ec66ad643fd7": {
                 "name": "Place labels",
-                "collapsed": true
+                "collapsed": false
             }
         },
         "mapbox:autocomposite": true,
@@ -1089,10 +1089,12 @@
             "filter": ["==", "type", "suburb"],
             "layout": {
                 "text-size": {"base": 1, "stops": [[13, 12], [16, 16]]},
+                "icon-image": "like%20(1)",
                 "text-transform": "uppercase",
                 "text-font": ["Raleway SemiBold"],
                 "text-padding": 3,
                 "visibility": "visible",
+                "icon-size": 0.75,
                 "text-field": "{name_en}",
                 "text-letter-spacing": 0.1,
                 "text-max-width": 7
@@ -1592,7 +1594,7 @@
     ],
     "created": "2019-02-11T21:22:44.320Z",
     "id": "cjs0ug4an045o1fkeprk0euly",
-    "modified": "2019-02-12T00:03:53.274Z",
+    "modified": "2019-02-18T15:45:47.618Z",
     "owner": "garciaha",
     "visibility": "public",
     "draft": false
